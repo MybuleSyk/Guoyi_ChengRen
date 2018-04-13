@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lx.guoyi_chengren.MainActivity">
+
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_framelayout">
+        </FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:background="@color/white"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:drawableTop="@drawable/home"
+            android:gravity="center"
+            android:text="首页"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/energy"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:drawableTop="@drawable/energy"
+            android:gravity="center"
+            android:text="诚信能量"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/comment"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/comment"
+            android:gravity="center"
+            android:text="评"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/friends"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:drawableTop="@drawable/friends"
+            android:gravity="center"
+            android:text="诚友"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/my"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:drawableTop="@drawable/my"
+            android:gravity="center"
+            android:text="我的"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"/>
+    </RadioGroup>
+
+</LinearLayout>
